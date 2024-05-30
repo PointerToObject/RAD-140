@@ -157,8 +157,6 @@ public:
 		return mem->ReadMemory<CVector>(entity + m_vOldOrigin);
 	}
 
-
-
 	int getLocalTeam(uintptr_t base)
 	{
 		auto localPlayer = GetPlayerController(base);

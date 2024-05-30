@@ -12,3 +12,4 @@
 
 
 extern bool esp;
+extern bool aimbot;

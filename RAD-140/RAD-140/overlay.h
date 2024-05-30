@@ -47,6 +47,7 @@ public:
 	// if we should render menu on top of the overlay.
 	inline static bool RenderMenu;
 
+
 	// if we should run the overlay at all
 	inline static bool shouldRun;
 };

@@ -330,13 +330,14 @@ void Overlay::EndRender()
 
 
 bool esp = false;
+bool aimbot = false;
 
 void Overlay::Render() {
 	ImGui::SetNextWindowSize({ 375, 250 });
 	ImGui::Begin("RAD-140", &RenderMenu, ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoResize);
 
 	ImGui::Checkbox("ESP", &esp);
-
+	ImGui::Checkbox("Aimbot", &aimbot);
 
 	ImGui::End();
 }
